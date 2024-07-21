@@ -1,0 +1,141 @@
+/* ---------------upper Division Css----------- */
+
+
+*{
+    margin : 0;
+    padding :0;
+    font-family: "inter",sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 65%;
+    background-color: #ffcd9e;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    height: 65%;
+    width: 50%;
+
+}
+.box1 p{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 36px;
+height: 70%;
+width: 100%;
+
+
+}
+h3{
+    height: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 36px;
+    font-family: inter;
+
+}
+
+#text1{
+    padding-left: 36px;
+    width: 670px;
+    height: 120px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 54px;
+    font-style: inter;
+ 
+}
+#text2{
+    width: 550px;
+    font-size: 1p8x;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 32px;
+    padding-top: 30px;
+
+}
+ 
+#email{
+    margin-left: 36px;
+    width: 300px;
+    height: 48px;
+    border: 2.5px solid black;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding-left: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #282828;
+    box-shadow: inset 0 0 10px rgba(29, 28, 28, 0.5);
+}
+button{
+    width: 200px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    border: 3px solid rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   
+}
+
+
+
+.box2{
+    padding: 30px 30px;
+  
+}
+
+ .backgrondImage{
+    height: 440px;
+    width: 450px;
+    transform: translateX(35px);
+ }
+
+.tag{
+    margin: 2px 40px;
+    padding-left: 56px;
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 35px;
+    /* padding: 50px; */
+    color: white;
+}
+
+/* -------------------Lower Division Css------------ */
+.lowerbox{
+    height: 45vh;
+    width: 100%;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.lowercontainer{
+    width: 70%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.lowBox2{
+    text-align: right;
+}
+li{
+    padding: 5px;
+}
+
